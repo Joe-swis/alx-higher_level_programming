@@ -3,11 +3,12 @@ import random
 import math
 number = random.randint(-10000, 10000)
 mod = number % 10 if number > 10 else number % -10
-print("Last digit of {:d} is "
-      .format(number),end="")
+print("
+      Last digit of {:d} is {:d} and is "
+      .format(number, mod), end="")
 if mod > 5:
-    print("{:d} and is greater than 5".format(mod))
+    print("greater than 5")
 elif mod == 0:
-    print("{:d} and is 0".format(mod))
+    print("0")
 else:
-    print("{:d} and is less than 6 and not 0".format(mod))
+    print("less than 6 and not 0")
