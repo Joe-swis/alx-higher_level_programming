@@ -4,8 +4,8 @@ for x in range(9):
         if x >= y :
             continue
         if x == 8:
-            print("{}{}".format(x,y),end="")
+            print("{:d}{:d}".format(x,y),end="")
             print()
             break
         else:
-            print("{}{}".format(x,y),end=", ")
+            print("{:d}{:d}".format(x,y),end=", ")
