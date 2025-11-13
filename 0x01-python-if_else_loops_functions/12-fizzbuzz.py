@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    for i in range(1,101):
+    for i in range(1, 101):
         modt = (i % 3 == 0 and i % 5 == 0)
-        if modt == True :
-            print("FizzBuzz",end=" ")
+        if modt == True:
+            print("FizzBuzz", end=" ")
         elif i % 3 == 0:
-            print("Fizz",end=" ")
+            print("Fizz", end=" ")
         elif i % 5 == 0:
-            print("Buzz",end=" ")
+            print("Buzz", end=" ")
         else:
             print("{:d}".format(i), end=" ")
